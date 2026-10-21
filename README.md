@@ -115,23 +115,14 @@ The project includes the following visualizations:
 - Actual versus predicted electricity consumption
 - Prediction error distribution
 
-## Project Structure
+## Project Conclusion
 
-```text
-Electricity-Consumption-Prediction/
-│
-├── Electricity_Consumption_Prediction.ipynb
-├── data/
-│   └── Electricity_consumption.csv
-├── results/
-│   ├── model_comparison_results.csv
-│   └── graphs/
-│       ├── consumption_distribution.png
-│       ├── temperature_vs_consumption.png
-│       ├── correlation_heatmap.png
-│       ├── algorithm_comparison.png
-│       ├── actual_vs_predicted.png
-│       └── prediction_error_distribution.png
-├── README.md
-├── requirements.txt
-└── .gitignore
+The Electricity Consumption Prediction project demonstrates the application of machine learning regression algorithms to predict electricity consumption using environmental conditions, building characteristics, occupancy, and usage-related features.
+
+Four algorithms—Linear Regression, Decision Tree Regression, Random Forest Regression, and Gradient Boosting Regression—were implemented and evaluated using Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R² score.
+
+Among the four models, **Linear Regression achieved the best overall performance**, with an MAE of 4.12, an RMSE of 5.15, and an R² score of 0.5947. Random Forest and Gradient Boosting also demonstrated reasonable predictive performance, while Decision Tree Regression performed comparatively less effectively on the test dataset.
+
+The results highlight the importance of evaluating multiple algorithms to identify a suitable model for a given prediction task. The project also demonstrates how data preprocessing, feature engineering, exploratory data analysis, and model evaluation contribute to a complete machine learning workflow.
+
+Overall, this project provides practical experience in developing and comparing regression models for electricity consumption prediction. Future improvements could include hyperparameter tuning, cross-validation, and testing on larger, independently sourced real-world datasets to further evaluate and improve predictive performance.
