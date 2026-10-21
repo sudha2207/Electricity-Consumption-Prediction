@@ -7,7 +7,7 @@
 pandas
 numpy
 
-# Data Visualization
+# Data Visualization 
 matplotlib
 seaborn
 
