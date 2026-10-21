@@ -1,0 +1,40 @@
+# ==========================================
+# Electricity Consumption Prediction
+# Machine Learning Project
+# ==========================================
+
+# Data Processing and Numerical Computation
+pandas
+numpy
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Machine Learning Algorithms
+scikit-learn
+
+# ==========================================
+# Development Environment
+# ==========================================
+# Platform: Google Colab
+# Language: Python
+
+# ==========================================
+# Algorithms Implemented
+# ==========================================
+# 1. Linear Regression
+# 2. Decision Tree Regression
+# 3. Random Forest Regression
+# 4. Gradient Boosting Regression
+
+# ==========================================
+# Model Evaluation Metrics
+# ==========================================
+# Mean Absolute Error (MAE)
+# Root Mean Squared Error (RMSE)
+# R-squared Score (R2)
+
+# Note:
+# Google Colab generally provides these libraries
+# pre-installed in its Python environment.
